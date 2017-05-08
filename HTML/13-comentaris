@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Comentaris</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script language="javascript" type="text/javascript" src="javascript.js"></script>
+</head>
+
+<body>
+<div id="header" class="w3-container">
+	<div class="w3-dropdown-click" onclick="drop()">
+		<i id="bar" class="fa fa-bars fa-3x"></i>
+		<div id="menu" class="w3-dropdown-content w3-bar-block w3-border" style="z-index:10000">
+			<a href="#" class="w3-bar-item w3-button"><i class="fa fa-search fa-2x"></i><p>CERCA</p></a>
+			<a href="#" class="w3-bar-item w3-button"><i class="fa fa-star fa-2x"></i><p>FAVORITS</p></a>
+			<a href="#" class="w3-bar-item w3-button"><i class="fa fa-user fa-2x"></i><p>PERFIL</p></a>
+			<a href="#" class="w3-bar-item w3-button"><i class="fa fa-comment-o fa-2x"></i><p>XAT</p></a>
+			<a onclick="sortir()" class="w3-bar-item w3-button"><i class="fa fa-close fa-2x"></i><p>SORTIR</p></a>
+		</div>
+	</div>
+	<h2 class="w3-center">COMENTARIS</h2>
+	<img id="lira" class="w3-image w3-right" src="img/icong.png"/>
+</div>
+<div class="w3-content" style="max-width:200px">
+	<div class="w3-panel w3-border-bottom w3-border-blue">
+  		<h2 class="w3-center">A Mobile Story</h2>
+	</div>
+</div>
+<div id="cab" class="w3-content" style="max-width:400px">
+	<img src="img/coment1.png"><h3>Perico M.</h3><img id="puntosg" src="img/puntosg.png">
+</div>
+<div id="cad" class="w3-content" style="max-width:400px">
+	<div class="w3-panel w3-border-bottom w3-border-blue">
+  		<p>Em va agradar molt l'exposició, estava molt ben muntada. He après molt sobre l'evolució de les tecnologies, el dolent és que se'm va oblidar fer la reserva prèvia per poder participar en l'Escape Room...</p>
+	</div>
+</div>
+</body>
+</html>

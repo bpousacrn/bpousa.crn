@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cerca</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script language="javascript" type="text/javascript" src="javascript.js"></script>
+</head>
+
+<body>
+<div id="header" class="w3-container">
+	<div class="w3-dropdown-click" onclick="drop()">
+		<i id="bar" class="fa fa-bars fa-3x"></i>
+		<div id="menu" class="w3-dropdown-content w3-bar-block w3-border" style="z-index:10000">
+			<a href="#" class="w3-bar-item w3-button"><i class="fa fa-search fa-2x"></i><p>CERCA</p></a>
+			<a href="#" class="w3-bar-item w3-button"><i class="fa fa-star fa-2x"></i><p>FAVORITS</p></a>
+			<a href="#" class="w3-bar-item w3-button"><i class="fa fa-user fa-2x"></i><p>PERFIL</p></a>
+			<a href="#" class="w3-bar-item w3-button"><i class="fa fa-comment-o fa-2x"></i><p>XAT</p></a>
+			<a onclick="sortir()" class="w3-bar-item w3-button"><i class="fa fa-close fa-2x"></i><p>SORTIR</p></a>
+		</div>
+	</div>
+	<h2 class="w3-center">CERCA</h2>
+	<img id="lira" class="w3-image w3-right" src="img/icong.png"/>
+</div>
+
+<div  id="text" class="w3-content" style="max-width:300px">
+	<div style="height:150px; width:400px"></div>
+	<select class="w3-select" name="PROVINCIA">
+  		<option value="" disabled selected>PROVÍNCIA</option>
+  		<option value="1">Barcelona</option>
+  		<option value="2">Girona</option>
+  		<option value="3">Lleida</option>
+  		<option value="4">Tarragona</option>
+	</select>
+	<br>
+	<br>
+	<select class="w3-select" name="TIPUS">
+  		<option value="" disabled selected>TIPUS</option>
+  		<option value="1">Música</option>
+  		<option value="2">Teatre</option>
+  		<option value="3">Varis</option>
+	</select>
+	<br>
+	<br>
+	<h3>Data</h3><i class="fa fa-calendar"></i><input class="w3-input w3-border w3-border-blue" type="text" placeholder="01/01/17"> 
+	<br>
+	<br>
+</div>
+<div class="w3-content" style="max-width:80px">
+	<button class="w3-button w3-round w3-blue">CERCA</button>
+</div>
+
+</body>
+</html>

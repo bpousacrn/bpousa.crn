@@ -1,0 +1,205 @@
+@font-face {
+	font-family: "AvenirNext"; 
+	src: url('fonts/AvenirNext.ttc'); 
+}
+
+@font-face {
+	font-family: "AvenirLTStd-Book_1"; 
+	src: url('fonts/AvenirLTStd-Book_1.otf'); 
+}
+
+
+html, body, h1, h3, input, button{
+	font-family: "AvenirLTStd-Book_1";
+		
+	
+}
+
+p, a, li, h2{
+	font-family: "AvenirNext";		
+	
+}
+
+body{
+	background-image:url(img/fondo.png);
+	background-attachment:fixed;
+	background-size:auto;
+
+}
+
+#header{
+	background-color:#A3A9AC;
+	height:80px;
+	width:auto;
+}
+
+#header h2{
+	position:relative;
+	top:-55px;
+	font-size:20pt;
+	color:#0074C8;
+}
+
+i, span, a{
+ color:#0074C8;
+}
+
+a{
+	text-decoration:underline;
+}
+
+#inicio input{
+	background-color:lightblue;
+
+}
+
+#header i{
+	margin-top:20px;
+
+}
+
+#lira{
+	position:relative;
+	top:-105px;
+}
+
+
+
+#mur1, #mur2, #mur3, #mur4, #mur5, #evento{
+	margin-top:60px;
+	width:300px;
+	height:120px;
+
+}
+
+#footer{
+	
+	width:300px;
+	height:auto;
+	margin-top:20px;
+}
+
+#peu img{
+	margin-right:15px;
+	position:relative;
+	top:-50px;
+	left:160px;
+}
+
+#cap{
+
+	height:70px;
+}
+
+#login{
+	margin-bottom:50px;
+}
+
+#cos p{
+	text-align:justify;
+	padding-top:0;
+	margin-top:0;
+	margin-bottom:25px;
+}
+
+
+h3, h2{
+	color:#0074C8;
+	font-size:1.5em;
+}
+
+#boto1, #boto2, #boto3{
+	position:relative;
+	top:-50px;
+	left:270px;
+}
+
+
+
+#menu{
+	width:300px;
+}
+
+#menu p{
+	color:#0074C8;
+	font-weight:bolder;
+	position:relative;
+	top:-55px;
+	right:-100px;
+	font-size:1.5em;
+	padding:0;
+	height:0px;
+
+}
+
+#text i{
+	position:relative;
+	top:32px;
+	left:270px;
+	margin:0;
+}
+
+#perfil i{
+	position:relative;
+	left:270px;
+}
+
+#perfil p{
+	position:relative;
+	top:40px;
+	color:#10181F;
+}
+
+#text p{
+	color:#A3A9AC;
+}
+#text h2{
+	margin-bottom:0;
+	padding:0;
+}
+
+#boto button{
+	margin-bottom:30px;
+
+}
+
+#publi img{
+
+	margin-top:50px;
+}
+#publi i{
+	position:relative;
+	top:-40px;
+	left:470px;
+}
+
+#publi h3{
+	font-size:1.2em;
+}
+#publi p{
+	text-align: justify;
+}
+
+#coment img{
+	position:relative;
+	top:-35px;
+	left:170px;
+}
+
+#evento{
+	opacity:0.4;
+}
+
+#cab h3{
+	position:relative;
+	left:120px;
+	top:-70px;
+
+	
+}
+
+#puntosg{
+	position:relative;
+	left:220px;
+	top:-110px;
+}

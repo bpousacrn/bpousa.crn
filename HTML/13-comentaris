@@ -31,11 +31,22 @@
 </div>
 <div id="cab" class="w3-content" style="max-width:400px">
 	<img src="img/coment1.png"><h3>Perico M.</h3><img id="puntosg" src="img/puntosg.png">
-</div>
-<div id="cad" class="w3-content" style="max-width:400px">
-	<div class="w3-panel w3-border-bottom w3-border-blue">
+
+	<div id="cad" class="w3-panel w3-border-bottom w3-border-blue">
   		<p>Em va agradar molt l'exposició, estava molt ben muntada. He après molt sobre l'evolució de les tecnologies, el dolent és que se'm va oblidar fer la reserva prèvia per poder participar en l'Escape Room...</p>
-	</div>
+</div>
+<div id="cab1" class="w3-content" style="max-width:400px">
+	<img src="img/coment2.png"><h3>Sandra D.</h3><img id="puntosg" src="img/puntos1.png">
+
+	<div id="cad" class="w3-panel w3-border-bottom w3-border-blue">
+  		<p>He gaudit molt de l’exposició i la recomano a tothom.
+		Jo sí que vaig reservar i he participat en el fantàstic Escape Room. Jajaja</p>
+</div>
+<div id="valor" class="w3-content" style="max-width:400px">
+	<h2 style="overflow:hidden;margin:0">T'HA AGRADAT?</h2><img src="img/puntosv.png">
+	<input class="w3-input w3-border w3-border-blue w3-text-blue" type="text" placeholder="COMENTARI" style="height:100px">
+	<button class="w3-button w3-round w3-blue" style="margin-top:25px">COMENTA</button>
+</div>
 </div>
 </body>
 </html>

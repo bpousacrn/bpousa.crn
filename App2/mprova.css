@@ -184,8 +184,8 @@ input{
 	float:left;
 	clear:both;
 	margin-top:5%;
-	margin-right:15%;
-	margin-left:20%;
+	margin-right:30%;
+	margin-left:10%;
 	max-width:80%;
 	
 }
@@ -209,16 +209,16 @@ input{
 .face{
 	float:right;
 	clear:both;
-	margin-top:-14%;
-	padding-right:27%;
+	margin-top:-20%;
+	padding-right:15%;
 
 }
 
 .gplus{
 	float:right;
 	clear:both;
-	margin-top:-14%;
-	padding-right:7%;
+	margin-top:-20%;
+	margin-right:-10%;
 	padding-bottom:50%;
 }
 

@@ -23,6 +23,8 @@ body{
 	background: linear-gradient(rgba(0,116,200,0), rgba(0,116,200,1));
 	background-size: cover;
 	background-repeat:repeat-x;
+	margin:0;
+	padding:0;
 }
 
 @media only screen and (max-width:767px) and (orientation: portrait){
@@ -43,8 +45,8 @@ body{
 #barra{
 	background-color:#A4A9AD;
 	height:100px;
-	margin:0, 0, 0, 0;
-	padding:0, 0, 0, 0;
+	margin:0;
+	padding:0;
 }
 
 #bar{

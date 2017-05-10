@@ -72,7 +72,6 @@ body{
 #cos{
 	width:80%
 	height:auto;
-	background-color:green;
 }
 
 #mur1{
@@ -155,11 +154,11 @@ body{
 	
 }
 
-button{
+.button{
 	color:#FFF;
 	background-color:#0074c8;
     border: none;
-    border-radius:10%;
+    border-radius:5%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -167,11 +166,13 @@ button{
     float:left;
     clear:both;
 	margin-top:5%;
+	margin-left:57%;
+	width:15%;
+
 }
 
 input{
 	background-color:lightblue;
-	color:#fff;
 	font-size:1.5em;
 	border:none;
 	float:left;
@@ -180,6 +181,38 @@ input{
 	margin-left:25%;
 	max-width:80%;
 	
+}
+
+#final{
+	width:70%;
+	float:left;
+	clear:both;
+	margin-left:15%;
+}
+
+#final p{
+	font-size:1.2em;
+}
+
+#final a{
+	color:#0074c8;
+	text-decoration:underline;
+}
+
+.face{
+	float:right;
+	clear:both;
+	margin-top:-14%;
+	padding-right:27%;
+
+}
+
+.gplus{
+	float:right;
+	clear:both;
+	margin-top:-14%;
+	padding-right:7%;
+	padding-bottom:50%;
 }
 
 }

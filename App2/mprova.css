@@ -248,6 +248,7 @@ input{
     font-size: 1em;
     padding:14px;
     margin:10%;
+    box-shadow: 1px 1px 5px #A3A9AC;
    
 }
 
@@ -255,6 +256,30 @@ input{
 	color:#fff;
 	width:60%;
 	margin-left:20%;
+	padding-bottom:10%;
+}
+
+#mail{
+	color:#fff;
+	background-color:lightblue;
+	width:70%;
+	height:30px;
+	margin:10%;
+
+}
+
+#escriu{
+	color:#fff;
+	background-color:lightblue;
+	width:70%;
+	height:100px;
+	margin:10%;
+
+}
+
+#escriu p, #mail p{
+	margin:5%;
+	padding-top:2%;
 }
 
 }

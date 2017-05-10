@@ -24,7 +24,8 @@ body{
 	background-size: cover;
 	background-repeat:repeat-x;
 	margin:0;
-	padding:0;
+	padding:0
+	;
 }
 
 @media only screen and (max-width:767px) and (orientation: portrait){
@@ -45,8 +46,8 @@ body{
 #barra{
 	background-color:#A4A9AD;
 	height:100px;
-	margin:0;
-	padding:0;
+	margin:0, 0, 0, 0;
+	padding:0, 0, 0, 0;
 }
 
 #bar{
@@ -57,7 +58,6 @@ body{
 }
 
 #barra h2{
-
 	float:right;
 	clear:left;
 	margin-right:45%;
@@ -71,6 +71,8 @@ body{
 	margin-right:6%;
 	margin-top:-55px;	 
 }
+
+
 #col1, #col3{
 	width:10%;
 	height:150px;
@@ -79,7 +81,15 @@ body{
 #col2{
 	width:80%
 	height:auto;
+	margin:0;
 }
+
+.entrada{
+	text-align:justify;
+	padding:10%;
+	font-size:1.2em;
+}
+
 
 #mur1{
 	background-image:url(img/mur1.jpg);
@@ -152,6 +162,9 @@ body{
 
 #content1, #content2, #content3{
     display:none;
+    width:80%;
+    text-align:justify;
+    margin-left:10%;
 }
 
 #nou{
@@ -222,6 +235,26 @@ input{
 	margin-top:-20%;
 	margin-right:-5%;
 	padding-bottom:50%;
+}
+
+.acordeon{
+	color:#FFF;
+	background-color:#0074c8;
+    border: none;
+    border-radius:5%;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 1em;
+    padding:14px;
+    margin:10%;
+   
+}
+
+#peu a{
+	color:#fff;
+	width:60%;
+	margin-left:20%;
 }
 
 }

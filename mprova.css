@@ -1,0 +1,221 @@
+@font-face {
+	font-family: "AvenirNext"; 
+	src: url('fonts/AvenirNext.ttc'); 
+}
+
+@font-face {
+	font-family: "AvenirLTStd-Book_1"; 
+	src: url('fonts/AvenirLTStd-Book_1.otf'); 
+}
+
+
+h2, h3, h4{
+	font-family: "AvenirNext";
+	color:#0074c8;	
+}
+
+html, body, p, a, button, input{
+	font-family: "AvenirLTStd-Book_1";	
+}
+
+body{
+
+	background: linear-gradient(rgba(0,116,200,0), rgba(0,116,200,1));
+	background-size: cover;
+	background-repeat:repeat-x;
+}
+
+@media only screen and (max-width:767px) and (orientation: portrait){
+
+
+#cap{
+	margin:0;
+	padding:0;
+
+}
+
+#cap img{
+	margin-left:30%;
+	margin-top:30%;
+}
+
+#barra{
+	background-color:#A4A9AD;
+	height:100px;
+	margin:0, 0, 0, 0;
+	padding:0, 0, 0, 0;
+}
+
+#bar{
+	margin-left:6%;
+	overflow:hidden;
+	margin-top:28px;
+
+}
+
+#barra h2{
+
+	float:right;
+	clear:left;
+	margin-right:45%;
+	margin-top:34px;	
+}
+
+#lira{
+
+	float:right;
+	clear:both;
+	margin-right:6%;
+	margin-top:-55px;	 
+}
+#col1, #col3{
+	width:10%;
+}
+#col2{
+	width:80%
+	height:auto;
+	margin:auto;
+}
+
+#mur1{
+	background-image:url(img/mur1.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+	width:300px;
+	height:150px;
+	margin:auto;
+}
+.pack{
+	background-image:url(img/pack.png);
+	width:300px;
+	height:50px;
+	
+}
+
+#mur1 h3, #mur2 h3, #mur3 h3, #mur4 h3, #mur5 h3{
+	padding:4%;
+	color:white;
+}
+
+#mur1 img, #mur2 img, #mur3 img, #mur4 img, #mur5 img{
+	float:right;
+	margin-top:-62px;
+	padding-right:4%;
+}
+
+
+
+#mur2{
+	background-image:url(img/mur2.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+	width:300px;
+	height:150px;
+	margin:auto;
+}
+
+#mur3{
+	background-image:url(img/mur3.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+	width:300px;
+	height:150px;
+	margin:auto;
+}
+
+#mur4{
+	background-image:url(img/mur4.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+	width:300px;
+	height:150px;
+	margin:auto;
+}
+
+#mur5{
+	background-image:url(img/mur5.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:center;
+	width:300px;
+	height:150px;
+	margin:auto;
+}
+
+#content1, #content2, #content3{
+    display:none;
+}
+
+#nou{
+	background-color:#0074C8;
+	opacity:0.4;
+	width:70%;
+	
+}
+
+.button{
+	color:#FFF;
+	background-color:#0074c8;
+    border: none;
+    border-radius:5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    float:left;
+    clear:both;
+	margin-top:5%;
+	margin-left:57%;
+	width:15%;
+
+}
+
+input{
+	background-color:lightblue;
+	font-size:1.5em;
+	border:none;
+	float:left;
+	clear:both;
+	margin-top:5%;
+	margin-left:25%;
+	max-width:80%;
+	
+}
+
+#final{
+	width:70%;
+	float:left;
+	clear:both;
+	margin-left:15%;
+}
+
+#final p{
+	font-size:1.2em;
+}
+
+#final a{
+	color:#0074c8;
+	text-decoration:underline;
+}
+
+.face{
+	float:right;
+	clear:both;
+	margin-top:-14%;
+	padding-right:27%;
+
+}
+
+.gplus{
+	float:right;
+	clear:both;
+	margin-top:-14%;
+	padding-right:7%;
+	padding-bottom:50%;
+}
+
+}

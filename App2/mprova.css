@@ -31,11 +31,7 @@ body{
 @media only screen and (max-width:767px) and (orientation: portrait){
 
 
-#cap{
-	margin:0;
-	padding:0;
 
-}
 
 #cap img{
 	margin-left:30%;
@@ -46,8 +42,8 @@ body{
 #barra{
 	background-color:#A4A9AD;
 	height:100px;
-	margin:0, 0, 0, 0;
-	padding:0, 0, 0, 0;
+	margin-bottom:10%;
+	
 }
 
 #bar{
@@ -269,9 +265,12 @@ input{
     display:block;
     font-size: 1em;
     padding:12px;
+    float:left;
+    clear:both;
    	margin-top:10%;
-   	margin-bottom:40%;
-   	width:60%;
+   	margin-bottom:60%;
+   	margin-left:15%;
+   	width:70%;
     box-shadow: 1px 1px 5px #A3A9AC;
    
 }
@@ -328,7 +327,7 @@ input{
 }
 
 #data h3{
-	color:#A4A9AD;
+	color:#0074c8;
 	margin-left:10%;
 }
 

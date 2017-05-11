@@ -14,7 +14,7 @@ h2, h3, h4{
 	color:#0074c8;	
 }
 
-html, body, p, a, button, input{
+html, body, p, a, button, input, select{
 	font-family: "AvenirLTStd-Book_1";	
 }
 
@@ -57,11 +57,12 @@ body{
 
 }
 
-#barra h2{
+#titol{
 	float:right;
-	clear:left;
-	margin-right:45%;
-	margin-top:34px;	
+	clear:both;
+	margin-right:25%;
+	margin-top:10%;
+		
 }
 
 #lira{
@@ -69,7 +70,7 @@ body{
 	float:right;
 	clear:both;
 	margin-right:6%;
-	margin-top:-55px;	 
+	margin-top:-50px;	 
 }
 
 
@@ -82,6 +83,11 @@ body{
 	width:80%
 	height:auto;
 	margin:0;
+}
+
+#cos{
+	width:80%;
+	margin:auto;
 }
 
 .entrada{
@@ -201,6 +207,7 @@ input{
 	margin-right:30%;
 	margin-left:10%;
 	max-width:80%;
+	border-radius:2%;
 	
 }
 
@@ -246,7 +253,7 @@ input{
     text-decoration: none;
     display:block;
     font-size: 1em;
-    padding:14px;
+    padding:12px;
     margin:10%;
     box-shadow: 1px 1px 5px #A3A9AC;
    
@@ -280,6 +287,32 @@ input{
 #escriu p, #mail p{
 	margin:5%;
 	padding-top:2%;
+}
+
+#provincia{
+	font-size:1.2em;
+	width:80%;
+	margin:10%;
+	color:#0074c8;
+
+}
+
+#tipus{
+	font-size:1.2em;
+	width:80%;
+	margin:10%;
+	color:#0074c8;
+}
+
+
+#data{
+	width:80%;
+	margin:10%;
+}
+
+#data h3{
+	color:#A4A9AD;
+	margin-left:10%;
 }
 
 }

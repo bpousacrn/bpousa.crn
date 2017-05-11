@@ -14,7 +14,7 @@ h2, h3, h4{
 	color:#0074c8;	
 }
 
-html, body, p, a, button, input{
+html, body, p, a, button, input, select{
 	font-family: "AvenirLTStd-Book_1";	
 }
 
@@ -23,28 +23,27 @@ body{
 	background: linear-gradient(rgba(0,116,200,0), rgba(0,116,200,1));
 	background-size: cover;
 	background-repeat:repeat-x;
+	margin:0;
+	padding:0
+	;
 }
 
 @media only screen and (max-width:767px) and (orientation: portrait){
 
 
-#cap{
-	margin:0;
-	padding:0;
 
-}
 
 #cap img{
 	margin-left:30%;
-	margin-top:30%;
+	margin-top:10%;
 	margin-bottom:-20%;
 }
 
 #barra{
 	background-color:#A4A9AD;
 	height:100px;
-	margin:0, 0, 0, 0;
-	padding:0, 0, 0, 0;
+	margin-bottom:10%;
+	
 }
 
 #bar{
@@ -54,12 +53,12 @@ body{
 
 }
 
-#barra h2{
-
+#titol{
 	float:right;
-	clear:left;
-	margin-right:45%;
-	margin-top:34px;	
+	clear:both;
+	margin-right:25%;
+	margin-top:10%;
+		
 }
 
 #lira{
@@ -67,8 +66,10 @@ body{
 	float:right;
 	clear:both;
 	margin-right:6%;
-	margin-top:-55px;	 
+	margin-top:-50px;	 
 }
+
+
 #col1, #col3{
 	width:10%;
 	height:150px;
@@ -77,7 +78,20 @@ body{
 #col2{
 	width:80%
 	height:auto;
+	margin:0;
 }
+
+#cos{
+	width:80%;
+	margin:auto;
+}
+
+.entrada{
+	text-align:justify;
+	padding:10%;
+	font-size:1.2em;
+}
+
 
 #mur1{
 	background-image:url(img/mur1.jpg);
@@ -150,6 +164,9 @@ body{
 
 #content1, #content2, #content3{
     display:none;
+    width:80%;
+    text-align:justify;
+    margin-left:10%;
 }
 
 #nou{
@@ -171,8 +188,7 @@ body{
     float:left;
     clear:both;
 	margin-top:5%;
-	margin-left:57%;
-	margin-right:10%;
+	margin-left:65%;
 	width:15%;
 
 }
@@ -183,18 +199,19 @@ input{
 	border:none;
 	float:left;
 	clear:both;
-	margin-top:5%;
+	margin-bottom:5%;
 	margin-right:30%;
 	margin-left:10%;
 	max-width:80%;
+	border-radius:2%;
 	
 }
 
 #final{
-	width:70%;
+	width:80%;
 	float:left;
 	clear:both;
-	margin-left:15%;
+	margin-left:10%;
 }
 
 #final p{
@@ -211,6 +228,7 @@ input{
 	clear:both;
 	margin-top:-20%;
 	padding-right:15%;
+	margin-left:10%;
 
 }
 
@@ -218,8 +236,99 @@ input{
 	float:right;
 	clear:both;
 	margin-top:-20%;
-	margin-right:-10%;
+	margin-right:-5%;
 	padding-bottom:50%;
+}
+
+.acordeon{
+	color:#FFF;
+	background-color:#0074c8;
+    border: none;
+    border-radius:5%;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 1em;
+    padding:12px;
+    margin:10%;
+    box-shadow: 1px 1px 5px #A3A9AC;
+   
+}
+
+.boto{
+	color:#FFF;
+	background-color:#0074c8;
+    border: none;
+    border-radius:5%;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 1em;
+    padding:12px;
+    float:left;
+    clear:both;
+   	margin-top:10%;
+   	margin-bottom:60%;
+   	margin-left:15%;
+   	width:70%;
+    box-shadow: 1px 1px 5px #A3A9AC;
+   
+}
+
+#peu a{
+	color:#fff;
+	width:60%;
+	margin-left:20%;
+	padding-bottom:10%;
+}
+
+#mail{
+	color:#fff;
+	background-color:lightblue;
+	width:70%;
+	height:30px;
+	margin:10%;
+
+}
+
+#escriu{
+	color:#fff;
+	background-color:lightblue;
+	width:70%;
+	height:100px;
+	margin:10%;
+
+}
+
+#escriu p, #mail p{
+	margin:5%;
+	padding-top:2%;
+}
+
+#provincia{
+	font-size:1.2em;
+	width:80%;
+	margin:10%;
+	color:#0074c8;
+
+}
+
+#tipus{
+	font-size:1.2em;
+	width:80%;
+	margin:10%;
+	color:#0074c8;
+}
+
+
+#data{
+	width:80%;
+	margin:10%;
+}
+
+#data h3{
+	color:#0074c8;
+	margin-left:10%;
 }
 
 }

@@ -259,6 +259,23 @@ input{
    
 }
 
+.boto{
+	color:#FFF;
+	background-color:#0074c8;
+    border: none;
+    border-radius:5%;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 1em;
+    padding:12px;
+   	margin-top:10%;
+   	margin-bottom:40%;
+   	width:60%;
+    box-shadow: 1px 1px 5px #A3A9AC;
+   
+}
+
 #peu a{
 	color:#fff;
 	width:60%;

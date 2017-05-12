@@ -82,7 +82,7 @@ body{
 }
 
 #cos{
-	width:80%;
+	width:90%;
 	margin:auto;
 }
 
@@ -277,10 +277,10 @@ input{
 
 #peu a{
 	color:#fff;
-	width:60%;
+	width:80%;
 	float:left;
 	clear:both;
-	margin-left:27%;
+	margin-left:20%;
 	margin-top:10%;
 	padding-bottom:10%;
 }

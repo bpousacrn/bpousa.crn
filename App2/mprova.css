@@ -194,7 +194,7 @@ body{
 }
 
 input{
-	background-color:lightblue;
+	border-color:#0074c8;
 	font-size:1.5em;
 	border:none;
 	float:left;

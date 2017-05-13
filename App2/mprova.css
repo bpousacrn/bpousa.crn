@@ -173,9 +173,11 @@ body{
 }
 
 #nou{
-	background-color:#0074C8;
-	opacity:0.4;
-	width:70%;
+	border:4px solid #0074C8;
+	width:80%;
+	margin:auto;
+	height:7em;
+	overflow:hidden;
 	
 }
 
@@ -196,10 +198,9 @@ body{
 
 }
 
-input{
-	border:10px solid #0074c8;
+.cercad{
+	border:3px solid #A4A9AD;
 	font-size:1.5em;
-	border:none;
 	float:left;
 	clear:both;
 	margin-bottom:5%;
@@ -244,6 +245,23 @@ input{
 }
 
 .acordeon{
+	color:#FFF;
+	background-color:#0074c8;
+    border: none;
+    border-radius:5%;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 1.2em;
+    box-shadow: 1px 1px 5px #A3A9AC;
+    float:left;
+    clear:both;
+    margin:10%;
+    width:80%;
+   
+}
+
+.boton{
 	color:#FFF;
 	background-color:#0074c8;
     border: none;
@@ -392,4 +410,55 @@ input{
 	z-index:500000;
 
 }
+
+.blanco{
+	float:right;
+	clear:both;
+	margin-top:28%;
+	margin-right:5%;
+}
+
+#centre{
+	width:80%;
+	margin:10%;
+}
+
+#centre p{
+	font-size:1.2em;
+	color:#0074c8;
+}
+
+#centre2 {
+	width:90%;
+	margin:5%;
+	font-size:1.2em;
+	text-align:justify;
+}
+
+.azul{
+	float:right;
+	clear:both;
+	margin-top:-13%;
+	margin-right:5%;
+}
+
+.noud{
+	border:3px solid #A4A9AD;
+	font-size:1.5em;
+	max-width:80%;
+	border-radius:2%;
+	
+}
+.arrowl{
+	float:left;
+	clear:both;
+}
+#perfil{
+	width:80%;
+	margin-left:22%;
+}
+#cos h2{
+	text-align:center;
+}
+
 }

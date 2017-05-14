@@ -46,6 +46,39 @@ body{
 	
 }
 
+#conver{
+	background-color:#A4A9AD;
+	height:50px;
+	width:100%;
+	margin-bottom:0%;
+	margin-top:165%;
+
+}
+
+#publi{
+	background-color: #A4A9AD;
+	height:50px;
+	width:100%;
+}
+#publi h3{
+	margin-left:5%;
+	padding-top:3%;
+}
+
+.arrowd{
+	float:right;
+	clear:both;
+	margin-top:-11%;
+	margin-right:5%;
+}
+
+.ppun{
+	float:right;
+	clear:both;
+	margin-right:30%;
+	margin-top:-10%;
+}
+
 #bar{
 	margin-left:6%;
 	overflow:hidden;
@@ -86,6 +119,13 @@ body{
 	margin:auto;
 }
 
+
+.share{
+	float:right;
+	clear:both;
+	margin-top:-12%;
+	margin-right:6%;
+}
 .com{
 	text-align:center;
 }
@@ -95,7 +135,23 @@ body{
 	font-size:1.2em;
 }
 
+.igual{
+	float:right;
+	clear:both;
+	margin-top:-12%;
+	margin-right:5%;
+}
 
+.igual2{
+	float:right;
+	clear:both;
+	margin-top:-9.5%;
+	margin-right:54%;
+}
+
+.detall{
+	text-align:justify;
+}
 #mur1{
 	background-image:url(img/mur1.jpg);
 	background-repeat:no-repeat;
@@ -193,7 +249,7 @@ body{
     float:right;
     clear:both;
 	margin-top:5%;
-	margin-right:10%;
+	margin-right:19%;
 	width:20%;
 
 }
@@ -216,6 +272,7 @@ body{
 	float:left;
 	clear:both;
 	margin-left:10%;
+	margin-top:-10%;
 }
 
 #final p{
@@ -230,7 +287,7 @@ body{
 .face{
 	float:right;
 	clear:both;
-	margin-top:-20%;
+	margin-top:-16%;
 	padding-right:15%;
 	margin-left:10%;
 
@@ -239,7 +296,7 @@ body{
 .gplus{
 	float:right;
 	clear:both;
-	margin-top:-20%;
+	margin-top:-16%;
 	margin-right:-5%;
 	padding-bottom:50%;
 }
@@ -291,9 +348,9 @@ body{
     padding:12px;
     float:left;
     clear:both;
-   	margin-top:10%;
-   	margin-bottom:60%;
+   	margin-top:5%;
    	margin-left:15%;
+   	margin-bottom:5%;
    	width:70%;
     box-shadow: 1px 1px 5px #A3A9AC;
    
@@ -325,8 +382,10 @@ body{
 	width:80%;
 	height:125px;
 	margin:10%;
-	
+}
 
+.det{
+	width:90%;
 }
 
 #escriu p, #mail p{
@@ -366,6 +425,14 @@ body{
 	margin-right:50%;
 
 }
+
+.nomx{
+	float:right;
+	clear:both;
+	margin-right:55%;
+
+}
+
 
 .quest{
 	margin-left:5%;
@@ -411,12 +478,47 @@ body{
 
 }
 
+.punx{
+	float:right;
+	clear:both;
+	margin-right:65%;
+	margin-top:-8%;
+	z-index:500000;
+
+}
+
+.pun2{
+	float:right;
+	clear:both;
+	margin-right:10%;
+	margin-top:-20%;
+	z-index:500000;
+
+}
+
+#xat1, #xat2, #xat3, #xat4{
+	border-bottom:1px solid #111820;
+	padding-top:5%;
+}
+
+
+#xat1 hr, #xat2 hr, #xat3 hr, #xat4 hr{
+	visibility:hidden;
+}
+
+#xat5{
+
+	padding-top:5%;
+	margin-bottom:10%;
+}
+
 .blanco{
 	float:right;
 	clear:both;
 	margin-top:28%;
 	margin-right:5%;
 }
+
 
 #centre{
 	width:80%;
@@ -432,7 +534,6 @@ body{
 	width:90%;
 	margin:5%;
 	font-size:1.2em;
-	text-align:justify;
 }
 
 .azul{
@@ -457,8 +558,123 @@ body{
 	width:80%;
 	margin-left:22%;
 }
-#cos h2{
+
+.nube{
+	width:90%;
+	height:auto;
+	float:left;
+	clear:both;
+	margin-bottom:10%;
+}
+
+.nube2{
+	width:40%;
+	height:auto;
+	float:right;
+	clear:both;
+	margin-right:10%;
+	margin-bottom:10%;
+}
+
+.nube3{
+	width:65%;
+	height:auto;
+	float:right;
+	clear:both;
+	margin-right:10%;
+	margin-bottom:15%;
+
+}
+
+.tit{
 	text-align:center;
 }
 
+#conver input{
+	width:60%;
+	height:2em;
+	float:left;
+	clear:both;
+	margin-left:12%;
+	margin-top:-6.5%;
+
+}
+
+
+#col2 input{
+	width:60%;
+	height:2em;
+	margin-left:20%;
+}
+
+
+
+.happy{
+	float:left;
+	clear:both;
+	margin-top:2%;
+	margin-left:2%;
+}
+.clip{
+	float:right;
+	clear:both;
+	margin-right:37%;
+	margin-top:-7%;
+
+}
+.camera{
+	float:right;
+	clear:both;
+	margin-right:30%;
+	margin-top:-6%;
+
+}
+.micro{
+	float:right;
+	clear:both;
+	margin-right:12%;
+	margin-top:-9%;
+
+}
+
+.arrowr{
+	float:right;
+	clear:both;
+	margin-top:-8%;
+	margin-right:2%;
+}
+
+.peri{
+	float:left;
+	clear:both;
+	margin-top:-15%;
+	margin-left:10%;
+}
+.peri{
+	float:left;
+	clear:both;
+	margin-top:-15%;
+	margin-left:10%;
+}
+.perim{
+	float:left;
+	clear:both;
+	margin-top:-13%;
+	margin-left:35%;
+	margin-bottom:20%;
+}
+
+
+.cale{
+	float:right;
+	clear:both;
+	margin-right:15%;
+	margin-top:-13.5%;
+
+}
+
+#peu .relleno{
+	width:100%;
+	height:9em;
+}
 }

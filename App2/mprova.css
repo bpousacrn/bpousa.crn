@@ -46,6 +46,19 @@ body{
 	
 }
 
+button{
+	color:#FFF;
+	background-color:#0074c8;
+    border: none;
+    border-radius:5%;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+    font-size: 1.2em;
+    box-shadow: 1px 1px 5px #A3A9AC;
+}
+
+
 #conver{
 	background-color:#A4A9AD;
 	height:50px;
@@ -80,18 +93,18 @@ body{
 	margin-top:-11%;
 }
 
-#bar{
-	margin-left:6%;
-	overflow:hidden;
+#bar {
+    margin-left:6%;
 	margin-top:28px;
-
 }
+
+
 
 #titol{
 	float:right;
 	clear:both;
-	margin-right:25%;
-	margin-top:10%;
+	margin-right:20%;
+	margin-top:11%;
 		
 }
 
@@ -100,7 +113,7 @@ body{
 	float:right;
 	clear:both;
 	margin-right:6%;
-	margin-top:-50px;	 
+	margin-top:-48px;	 
 }
 
 
@@ -148,15 +161,10 @@ body{
 	margin-right:3%;
 }
 
-.igual2{
-	float:right;
-	clear:both;
-	margin-top:-11%;
-	margin-right:48%;
-}
 
 .detall{
 	text-align:justify;
+	margin-bottom::0%;
 }
 #mur1{
 	background-image:url(img/mur1.jpg);
@@ -244,14 +252,6 @@ body{
 }
 
 .button{
-	color:#FFF;
-	background-color:#0074c8;
-    border: none;
-    border-radius:5%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.2em;
     float:right;
     clear:both;
 	margin-top:5%;
@@ -290,6 +290,12 @@ body{
 	text-decoration:underline;
 }
 
+.avis{
+	margin-left:37%;
+	margin:bottom:20%;
+	padding-top:10%;
+}
+
 .face{
 	float:right;
 	clear:both;
@@ -308,15 +314,6 @@ body{
 }
 
 .acordeon{
-	color:#FFF;
-	background-color:#0074c8;
-    border: none;
-    border-radius:5%;
-    text-align: center;
-    text-decoration: none;
-    display:block;
-    font-size: 1.2em;
-    box-shadow: 1px 1px 5px #A3A9AC;
     float:left;
     clear:both;
     margin:10%;
@@ -324,17 +321,8 @@ body{
    
 }
 
+
 .boton{
-	color:#FFF;
-	background-color:#0074c8;
-    border: none;
-    border-radius:5%;
-    text-align: center;
-    text-decoration: none;
-    display:block;
-    font-size: 1.2em;
-    margin-right:15%;
-    box-shadow: 1px 1px 5px #A3A9AC;
     float:right;
     clear:both;
     width:20%;
@@ -343,13 +331,7 @@ body{
 }
 
 .boto{
-	color:#FFF;
-	background-color:#0074c8;
-    border: none;
-    border-radius:5%;
-    text-align: center;
-    text-decoration: none;
-    display:block;
+	
     font-size: 1em;
     padding:12px;
     float:left;
@@ -358,18 +340,12 @@ body{
    	margin-left:15%;
    	margin-bottom:5%;
    	width:70%;
-    box-shadow: 1px 1px 5px #A3A9AC;
+    
    
 }
 
 .boto2{
-	color:#FFF;
-	background-color:#0074c8;
-    border: none;
-    border-radius:5%;
-    text-align: center;
-    text-decoration: none;
-    display:block;
+	
     font-size: 1em;
     padding:12px;
     float:left;
@@ -378,7 +354,6 @@ body{
    	margin-left:15%;
    	margin-bottom:30%;
    	width:70%;
-    box-shadow: 1px 1px 5px #A3A9AC;
    
 }
 
@@ -452,12 +427,7 @@ body{
 
 }
 
-.nomx{
-	float:right;
-	clear:both;
-	margin-right:55%;
 
-}
 
 
 .quest{
@@ -504,12 +474,28 @@ body{
 
 }
 
+
+
+.xat{
+	border-bottom:1px solid #111820;
+	padding-top:5%;
+}
+
+
+.xat hr{
+	visibility:hidden;
+}
+
+.xat2{
+	padding-top:5%;
+	margin-bottom:20%;
+}
+
 .punx{
 	float:right;
 	clear:both;
 	margin-right:65%;
 	margin-top:-8%;
-	z-index:500000;
 
 }
 
@@ -518,25 +504,23 @@ body{
 	clear:both;
 	margin-right:10%;
 	margin-top:-20%;
-	z-index:500000;
+
+}
+.nomx{
+	float:right;
+	clear:both;
+	margin-right:55%;
 
 }
 
-#xat1, #xat2, #xat3, #xat4{
-	border-bottom:1px solid #111820;
-	padding-top:5%;
+.nom1{
+	float:right;
+	clear:both;
+	margin-right:60%;
+
 }
 
 
-#xat1 hr, #xat2 hr, #xat3 hr, #xat4 hr{
-	visibility:hidden;
-}
-
-#xat5{
-
-	padding-top:5%;
-	margin-bottom:10%;
-}
 
 .blanco{
 	float:right;
@@ -667,12 +651,7 @@ body{
 	margin-top:-15%;
 	margin-left:10%;
 }
-.peri{
-	float:left;
-	clear:both;
-	margin-top:-15%;
-	margin-left:10%;
-}
+
 .perim{
 	float:left;
 	clear:both;
@@ -715,4 +694,35 @@ body{
 	width:100%;
 	height:9em;
 }
+
+
+
+.menu {
+ 
+    display: inline-block;
+    margin-left:5%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 50000000;
+}
+
+.dropdown-content a {
+    color: #0074c8;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.show {
+	display:block;
+}
+
 }

@@ -1,28 +1,4 @@
 
-
-
-function drop() {
-    var x = document.getElementById("menu");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
-function sortir() {
-	alert
-}
-
-function myFunction(id) {
-    var x = document.getElementById(id);
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-
 function aco1() {
     var x = document.getElementById('content1');
     if (x.style.display === 'block') {
@@ -48,4 +24,83 @@ function aco3() {
     } else {
         x.style.display = 'none';
     }
+}
+
+function cross(x) {
+    x.classList.toggle("change");
+}
+
+function drop() {
+    document.getElementById("list").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+function canvia1(){
+var estrella=document.getElementById("star1");
+
+    if (estrella.src.match("img/stare.png")) {
+        estrella.src="img/starf.png";
+    } else if(estrella.src="img/starf.png"){
+        estrella.src="img/stare.png";
+
+    };
+
+}
+function canvia2(){
+var estrella=document.getElementById("star2");
+
+    if (estrella.src.match("img/stare.png")) {
+        estrella.src="img/starf.png";
+    } else if(estrella.src="img/starf.png"){
+        estrella.src="img/stare.png";
+
+    };
+
+}
+function canvia3(){
+var estrella=document.getElementById("star3");
+
+    if (estrella.src.match("img/stare.png")) {
+        estrella.src="img/starf.png";
+    } else if(estrella.src="img/starf.png"){
+        estrella.src="img/stare.png";
+
+    };
+
+}
+function canvia4(){
+var estrella=document.getElementById("star4");
+
+    if (estrella.src.match("img/stare.png")) {
+        estrella.src="img/starf.png";
+    } else if(estrella.src="img/starf.png"){
+        estrella.src="img/stare.png";
+
+    };
+
+}
+function canvia5(){
+var estrella=document.getElementById("star5");
+
+    if (estrella.src.match("img/stare.png")) {
+        estrella.src="img/starf.png";
+    } else if(estrella.src="img/starf.png"){
+        estrella.src="img/stare.png";
+
+    };
+
 }

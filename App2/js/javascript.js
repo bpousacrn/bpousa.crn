@@ -104,3 +104,21 @@ var estrella=document.getElementById("star5");
     };
 
 }
+
+
+function sortir(){
+    var sortir=confirm("De veritat vols sortir?");
+
+                if (sortir==true) {
+                    location.href="https://bpousacrn.github.io/App2/login.html";
+                } 
+
+                else {
+                    location.href="https://bpousacrn.github.io/App2/mur.html";
+                }
+}
+
+function splash(){
+    setTimeout("location.href='https://bpousacrn.github.io/App2/login.html'", 3000);
+}
+

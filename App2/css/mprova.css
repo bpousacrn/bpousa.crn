@@ -30,8 +30,32 @@ body{
 
 @media only screen and (max-width:767px) and (orientation: portrait){
 
+#web{
+	margin-top:30%;
+	width:100px;
+	height:75px;
+	background-color:teal;
+	border-radius:20px;
+	margin-left:35%;	
+}	
 
+#web p, #apk p{
 
+	text-align:center;
+	padding-top:25%;
+	color:#fff;
+}
+
+#apk{
+	margin-top:10%;
+	width:100px;
+	height:75px;
+	background-color:teal;
+	border-radius:20px;
+	margin-left:35%;
+	margin-bottom:70%;	
+
+}
 #splash img{
 	margin-top:30%;
 	margin-left:7%;

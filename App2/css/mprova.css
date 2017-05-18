@@ -667,23 +667,6 @@ button{
 }
 
 
-.cale{
-	float:right;
-	clear:both;
-	margin-right:15%;
-	margin-top:-13.5%;
-
-}
-
-.cale2{
-	float:right;
-	clear:both;
-	margin-right:20%;
-	margin-top:-15%;
-	z-index:500000;
-
-}
-
 .cercad2{
 	border:3px solid #A4A9AD;
 	font-size:1.5em;

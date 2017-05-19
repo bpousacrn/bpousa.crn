@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cerca</title>
+  <link rel="stylesheet" href="css/landprova.css">
+  <link rel="stylesheet" href="css/lprova.css">
+	<link rel="stylesheet" href="css/mprova.css">
+	<script language="javascript" type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+<div id="barra">
+	<div class="menu">
+			<img id="bar" class="dropbtn" onclick="drop()" src="img/menu.png">
+  		<div id="list" class="dropdown-content">
+    		<a href="cerca.html">CERCA</a>
+    		<a href="favorits.html">FAVORITS</a>
+   		 	<a href="perfil.html">PERFIL</a>
+    		<a href="xat.html">XAT</a>
+    		<a onclick="sortir()">SORTIR</a>
+  		</div>
+	</div>
+	<img id="titol" src="img/cerca.png">
+	<img id="lira" src="img/icong.png">
+</div>
+<div id="cos">
+
+
+  <select id="provincia" name="option">
+    <option value="0" disabled selected>PROVÍNCIA</option>
+    <option value="1">Barcelona</option>
+    <option value="2">Girona</option>
+    <option value="3">Lleida</option>
+    <option value="4">Tarragona</option>
+  </select>
+  <select id="tipus" name="option">
+    <option value="0" disabled selected>TIPUS</option>
+    <option value="1">Música</option>
+    <option value="2">Teatre</option>
+    <option value="3">Varis</option>
+  </select>
+
+	
+</div>	
+<div id="data">	
+	
+	<h3>Data</h3>
+	<input class="cercad" type="date" placeholder="01/01/17">
+	<a href="mur.html"><button class="boto2">GO!</button></a>
+	
+</div>
+
+</body>
+</html>

@@ -7,12 +7,21 @@ body{
 
 #cap{
 	color:#8fd0d9;
-	font-size:2em;
+	font-size:1.5em;
 	margin-top:50px;
 	margin-bottom:50px;
-	
+	padding-left:60px;
 }
 
+#sub{
+	color:#8fd0d9;
+	font-size:0.8em;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align: center;
+	padding-right:30px;
+
+}
 #fila1{
 	margin-top:20px;
 	height:150px;

@@ -1,0 +1,51 @@
+body{
+	background-color:#1C1C1C;
+	font-family:'Century Gothic';
+	font-weight: bold;
+	font-size:18pt;
+}
+
+#cap{
+	color:#8fd0d9;
+	font-size:2em;
+	margin-top:50px;
+	margin-bottom:50px;
+	
+}
+
+#fila1{
+	margin-top:20px;
+	height:150px;
+}
+
+#fila2{
+	height:150px;
+}
+
+.imagen{
+	height:150px;
+	width:auto;
+	opacity:0.8;
+	cursor: pointer;
+    transition: 0.3s;
+}
+
+.imagen:hover {
+	opacity: 1;
+}
+
+iframe{
+	padding-left:20px;
+}
+
+#peu{
+	margin-top:30px;
+	margin-bottom:15px;
+
+}
+
+#peu a{
+	color:#8fd0d9;
+	text-decoration:none;
+	
+}
